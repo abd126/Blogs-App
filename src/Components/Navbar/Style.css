@@ -1,0 +1,25 @@
+.Navbar {
+    margin: 0 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+
+.nav-links ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-links li {
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
