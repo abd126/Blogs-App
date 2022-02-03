@@ -4,6 +4,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; */
     
 }
 
@@ -22,4 +26,19 @@
 }
 a{
     text-decoration: none;
+    color: black;
 }
+
+@media screen and (max-width: 480px) {
+    .nav-links li{
+        width: 100%;    
+        text-align: center;
+        margin-top: 5px;
+       
+    }
+    .nav-links li:hover{
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #e4e3e3;
+    }
+  }

@@ -1,0 +1,21 @@
+.Story{
+    background-image: url("../../Images/Story.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.Story-Detail{
+    text-align: left;
+    padding: 10px 30px;
+    opacity: 0.8;
+    
+}
+
+.Heading {
+    font-size: 4em;
+    text-align: left;
+    
+}

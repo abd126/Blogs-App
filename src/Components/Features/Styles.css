@@ -1,0 +1,24 @@
+.Features {
+    display:  flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.Features-Box{
+    text-align: center;
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    background-color: rgb(248, 248, 248);
+    padding: 100px;
+    /* border: 1px solid; */
+    /* padding: 10px; */
+    box-shadow: 5px 10px #e4e3e3;
+    margin-top: 14px;
+}
+i {
+    font-size: 4em;
+ 
+
+}
