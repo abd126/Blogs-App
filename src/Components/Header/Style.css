@@ -1,9 +1,8 @@
+
 .Header{
     width: 100%;
-    height: auto;
-}
-
-.Header img {
-    width: 100%;
-    height: 110vh;
+    height: 100vh;
+    background-image: url("../../Images/Banner-2.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }

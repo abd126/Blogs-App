@@ -1,21 +1,25 @@
 .Story{
-    background-image: url("../../Images/Story.jpg");
-    height: 50vh;
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
 .Story-Detail{
-    text-align: left;
-    padding: 10px 30px;
-    opacity: 0.8;
-    
+    width: 50%;
+    justify-content: center;
 }
 
+.Story-Img{
+    width: 50%;
+}
+
+.Story-Img img {
+    width: 100%;
+    height: 70vh;
+}
 .Heading {
     font-size: 4em;
-    text-align: left;
+    color: rgba(235, 191, 133, 0.801);
     
 }

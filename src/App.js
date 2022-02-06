@@ -8,7 +8,7 @@ import Story from './Components/Story/Story';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       <Story />
       <Features />
